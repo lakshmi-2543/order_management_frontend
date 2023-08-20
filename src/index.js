@@ -15,7 +15,7 @@ import './interceptors/authInterceptor';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter basename="/index.html">
+    <BrowserRouter>
       <LoadingProvider>
         <AuthProvider>
           <CartProvider>
